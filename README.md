@@ -9,6 +9,10 @@
 
 <img src="https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/images/EX2.png" width=80% height=80%>
 
+* Ejercicio 9
+
+<img src="https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/images/EX9.png" width=80% height=80%>
+
 * Ejercicio 16
 
 <img src="https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/images/EX16.png" width=80% height=80%>
