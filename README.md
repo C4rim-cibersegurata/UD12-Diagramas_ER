@@ -3,7 +3,7 @@
 
 * Ejercicio 2
 
-![alt text](https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/EX2.png)
+![image](https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/EX2.png)
 
 * Ejercicio 16
 
