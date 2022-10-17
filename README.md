@@ -1,8 +1,8 @@
 # UD12-Diagramas_ER
 # Team 2 - Juan Manuel, Karim, Facundo 
 
-[![enunciado](https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/images/buto.png)](https://docs.google.com/viewer?url=https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/Ejercicios%20E-R.pdf)
-
+[![enunciado](https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/images/buto.png)](https://drive.com/)
+[<img src="https://docs.google.com/viewer?url=https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/Ejercicios%20E-R.pdf/>](https://drive.com/)
 
 * Ejercicio 1
 
