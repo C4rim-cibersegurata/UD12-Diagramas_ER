@@ -1,7 +1,7 @@
 # UD12-Diagramas_ER
 # Team 2 - Juan Manuel, Karim, Facundo 
 
-<embed src="(https://docs.google.com/viewer?url=https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/Ejercicios%20E-R.pdf" type="application/pdf">
+<embed src="(/blob/main/Ejercicios%20E-R.pdf" type="application/pdf">
 
 * Ejercicio 1
 
