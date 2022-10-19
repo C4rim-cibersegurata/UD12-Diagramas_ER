@@ -11,7 +11,7 @@
 
 * Ejercicio 3
 
-<img src="https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/images/EX3.png" width=80% height=40%>
+<img src="https://github.com/C4rim-cibersegurata/UD12-Diagramas_ER/blob/main/images/EX3.png" width=40% height=10%>
 
 * Ejercicio 4
 
