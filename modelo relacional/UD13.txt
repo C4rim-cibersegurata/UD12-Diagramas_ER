@@ -1,1 +1,62 @@
 
+13-
+
+Pinches(DNI#, nombre, apellido, númeroSS, tel_fijo, tel_movil, fecha_nacimiento, cocinero_jefe)
+Cocinero(DNI#,, nombre, apellido, númeroSS, tel_fijo, tel_movil, años_de_servicio)
+Prepara(id#,, DNI_cocinero, id_plato)
+Platos(id_plato#,, nombre, precio, tipo)
+Tiene(id#,, id_plato, id_ingrediente)
+Ingredientes(id_ingrediente#,, nombre, cantidad, letra1, letra2, almacen_id)
+Estantería(id_estanteria#,letra1, letra2, almacen_id, tamaño)
+Almacén(almacen_id#,, nombre, descripción)
+
+14-
+
+Comentarios(id_comentario#,, texto, imagen, id_usuario)
+Usuario(id_usuario#,, contraseña, email, nombre, apellidos, direccion, foto, celebridad)
+Contactos(id#,, id_usuario, id_contacto, comentario)
+Pertenece(id#,, id_usuario, id_grupo)
+Grupos(id_grupo#,, nombre)
+Visibles(id#,, id_comentario, id_grupo, id_contacto)
+Bloquea(id#,, id_usuario, id_bloqueado)
+Teléfonos(id#,, telefono, id_usuario)
+
+
+15-
+Menús(id_menu, fecha, menús_servidos, temperatura)
+Platos(id_plato, nombre, descripción, tipo)
+Compone(id, id_menu, id_plato, platos_servidos)
+
+16-
+
+Usuarios(id_usuario#,, email, nombre, apellidos, telefono)
+Notificaciones(id_notificacion#,, texto, id_usuario)
+Tweets(id_tweet#,, fecha, texto, id_usuario)
+Mensajes(id_mensaje#,, texto, receptor_id, remitente_id)
+Sigue(id#,,seguidor_id, seguido_id)
+
+17-
+
+Profesores(id_profesor#,, nombre, dirección, teléfono, email, DNI, numero_ss)
+Imparten(id#,, id_profesor, id_asignatura, fecha_inicio, fecha_fin)
+Asignatura(id_asignatura#,, nombre, código_europeo, código_tutor)
+Requiere(id#,, id_asignatura, id_requerida)
+Se imparten(id#,, id_asignatura, id_ciclo, curso)
+Ciclos(id_ciclo#,, nombre, tipo)
+Horario(id_horario#,, dia, hora, código_asignatura, código_aula)
+Aula(id_aula#,, nombre, número, metros)
+
+18-
+
+Trabajadores(id_trabajador#,, DNI, teléfono_fijo, teléfono_personal, nombre, apellidos)
+Alquiler(id_alquiler#,, id_agente, id_cliente)
+Pagos(id_pago#,, id_alquiler, id_cliente, valor, año, mes)
+Compra(id_compra#,, fecha, valor, id_cliente, id_trabajador)
+Clientes(id_cliente#,, DNI, teléfono_fijo, teléfono_personal, nombre, apellidos)
+Pisos(id_piso#,, metros, descripción, dirección, id_compra, id_alquiler)
+Garajes(id_garaje#,, metros, descripción, dirección, numero, planta, id_piso, id_compra, id_alquiler)
+Locales(id_local#, metros, descripción, dirección, uso, servicio, id_compra, id_alquiler)
+
+
+
+
