@@ -1,3 +1,37 @@
+7-
+
+Trabajadores(IdCodeTrabajador#, Dni, Nº SS, Nombre, Apellidos, Dirección, Teléfono,Es_responsable)
+Trabajadores-Departamentos(IdCodeDepartamento#, IdCodeTrabajador#)
+Departamento (IdCodeDepartamento#, Nombre)
+Contrato(IdContrato#, Fecha_Inicio, Fecha_Final, IdCodeTrabajador#)
+Nómina(IdNomina#, Fecha, Salario, IdContrato#)
+
+8-
+
+Clientes(IdCodeCliente#, Dni, Nombre, Apellido, Dirección, Teléfono, Nº_Tarjeta_Credito, IdCodeEmbarque#)
+Reservas(IdCodeReserva#, Nº_asientos, Fecha, IdCodeCliente#, IdCodeEmbarque#)
+Tarjeta_Embarque(IdCodeEmbarque#)
+Asiento(IdAsiento#,IdCodeEmbarque#,Fila, Columna, Planta)
+Avión(IdCodeAvión#, Num_Plazas,IdAsiento#)
+Vuelo(IdCodeVuelo#, IdCodeAeropuerto, Fecha_salida, Fecha_llegada, Llegada, Salida)
+Aeropuerto(IdCodeAeropuerto#, Nombre, Localidad, Pais)
+
+9-
+
+Chef(IdChef#, Nº_recetas_creadas)
+Receta(IdChef#, IdReceta#, Duración, Complejidad)
+Paso(IdReceta#, IdPaso#, Duración, Descripcion)
+Paso(IdReceta#, IdIngrediente#, Nombre, Cantidad)
+
+10-
+
+Jugador(IdNombreJugador#, Posición, Edad)
+Equipo(IdNombreEquipo#, País, Nº_de_jugadores)
+Partido(IdPartido#, Visitantes, Locales, goles_visitantes, goles_locales, Id_Liga#)
+Jugador-Equipo(IdNombreJugador, IdNombreEquipo)  
+Juega(IdNombreEquipo, IdPartido)
+Entrenador(IdNombre#, Edad)
+Liga(IdNombre#, Temporada)
 
 13-
 
