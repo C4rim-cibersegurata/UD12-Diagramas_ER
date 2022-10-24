@@ -33,6 +33,28 @@ Juega(IdNombreEquipo, IdPartido)
 Entrenador(IdNombre#, Edad)
 Liga(IdNombre#, Temporada)
 
+11-
+
+País(IdNombrePais#, Extensión, Población)
+Accidente(IdNombreAccidente#, Horizontal, Vertical)
+Pais-Accidente(IdNombreAccidente#, IdNombrePais#)
+Montaña(IdNombreMontaña#,Altura)
+Lago(IdNombreLago#,Extensión)
+Río(IdNombreRio#,Longitud)
+Localidad(IdNombreLocalidad#)
+Rio-Localidad(IdNombreRio#, IdNombreLocalidad#)
+
+12-
+
+Empresa(IdCodigoInterno#, CIF, Nombre, Dirección, Teléfono)
+Proyecto(IdProyecto#, IdCodigoInterno#, Fecha_Prevista, Fecha_Inicio, Fecha_Final)
+Puesto(IdPuesto#, Nombre)
+Tiene(IdPuesto#, IdProyecto#)
+Trabajador(IdCodeTrabajador#, DNI, Nombre, Apellidos)
+Trabaja(IdCodeTrabajador#, IdPuesto#, Horas_trabajadas)
+Profesión(IdCodigoProfesion#, Nombre)
+Pertenece(IdCodigoProfesion#, IdPuesto#)
+
 13-
 
 Pinches(DNI#, nombre, apellido, númeroSS, tel_fijo, tel_movil, fecha_nacimiento, cocinero_jefe)
