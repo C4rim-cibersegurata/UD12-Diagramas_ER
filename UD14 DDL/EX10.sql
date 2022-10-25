@@ -40,3 +40,10 @@ CREATE TABLE juega (
 idequipo INT REFERENCES equipo (idequipo) on delete cascade on update cascade,
 idpartido INT REFERENCES partido (idpartido) on delete cascade on update cascade 
 );
+
+INSERT INTO equipo (nombre, pais, NumJugadores) VALUES ('Xavineta', 'España', 23);
+INSERT INTO jugador (nombre, posicion, edad) VALUES ('Gavi', 'Falso 9', 20);
+INSERT INTO liga (temporada) VALUES (2022);
+INSERT INTO entrenador (IdNombre, edad) VALUES ('Xavi', 37);
+INSERT INTO partido (visitantes, locales, GolesVisitantes, GolesLocales) VALUES ('Bayern', 'Barça', 2, 3);
+
