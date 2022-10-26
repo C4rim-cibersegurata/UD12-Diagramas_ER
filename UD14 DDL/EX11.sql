@@ -46,3 +46,15 @@ CREATE TABLE IF NOT EXISTS RioLocalidad(
 nombreRio VARCHAR(45) REFERENCES rio (nombreRio) on delete cascade on update cascade,
 nombrelocalidad VARCHAR(45) REFERENCES localidad (nombrelocalidad) on delete cascade on update cascade 
 );
+INSERT INTO `pais` (`nombrepais`,`extension`,`poblacion`)
+VALUES
+  ("South Africa",4904717,461105691),
+  ("India",11625794,851604150),
+  ("Italy",1047912,605529452),
+  ("New Zealand",5328961,817983972),
+  ("Brazil",11849917,801498150),
+  ("Belgium",7358961,826077927),
+  ("France",15820996,241425325),
+  ("Poland",13241898,962144217),
+  ("Australia",12516976,855557101),
+  ("Colombia",15776007,827484218);
