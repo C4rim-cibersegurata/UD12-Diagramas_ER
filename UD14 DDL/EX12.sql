@@ -22,7 +22,7 @@ nombre VARCHAR(30),
 IdProyecto INT REFERENCES proyecto (IdProyecto) on delete cascade on update cascade
 );
 
-CREATE TABLE trabajadro(
+CREATE TABLE trabajador(
 IdCodeTrabajador INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 dni VARCHAR(9) NOT NULL,
 nombre VARCHAR(30),
