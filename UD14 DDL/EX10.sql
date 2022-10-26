@@ -65,8 +65,7 @@ VALUES
   ("Bufón","Punta derecha",33),
   ("Busquets","Mediapunta ",29),
   ("Pedri","Defensa central",35);
-INSERT INTO liga (temporada) 
-VALUES , (2021), (2022), (201), (2020), (2016), (2017), (2019), (2022), (2014), (2010);
+INSERT INTO liga (temporada) VALUES (2021), (2022), (201), (2020), (2016), (2017), (2019), (2022), (2014), (2010);
 INSERT INTO entrenador (IdNombre, edad)
 VALUES
   ("Xavineta",63),
