@@ -49,3 +49,8 @@ IdCodeAvion INTEGER NOT NULL PRIMARY KEY,
 NumPlazas INTEGER NOT NULL,
 IdCodeVuelo INT NOT NULL  REFERENCES vuelo (IdCodeVuelo) ON DELETE CASCADE ON UPDATE CASCADE
 );
+INSERT INTO tarjetaEmbarque (IdCodeEmbarque) VALUES  (1), (2), (3), (4), (5), (6), (7), (8), (9), (10);
+INSERT INTO clientes (Dni,nombre,direccion,telefono,NumTarjetaCredito,IdCodeEmbarque) 
+VALUES ('41024726V', 'Pere', 'Calle Mare molas', 631325092, 459985823401789, 1);
+INSERT INTO reservas (NumAsientos, Fecha) VALUES  (12,12-03-22), (24,23-03-22), (16,30-03-22), (20,10-03-22), (30,03-04-22), (24,17-11-22), (18,19-03-22), (21,10-02-22), (30,12-08-22), (18,19-08-22);
+
